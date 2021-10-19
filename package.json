@@ -1,15 +1,16 @@
 {
-  "name": "@pancakeswap-libs/sdk-v2",
+  "name": "swap-libs-sdk-v2",
   "license": "MIT",
-  "version": "2.2.0",
-  "description": "🛠 An SDK for building applications on top of pancakeswap.",
+  "version": "0.0.1",
+  "description": "🛠 An SDK for building applications on top of pancakeswap or uniswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancakeswap-sdk.git",
+  "repository": "https://github.com/Fyfe0203/pancakeswap-sdk-v2",
   "keywords": [
+    "uniswap",
     "pancakeswap",
     "ethereum"
   ],
@@ -47,7 +48,7 @@
     "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
     "babel-plugin-transform-jsbi-to-bigint": "^1.3.1",
-    "tsdx": "^0.12.3"
+    "tsdx": "^0.14.1"
   },
   "engines": {
     "node": ">=10"
