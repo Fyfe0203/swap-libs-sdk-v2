@@ -1,20 +1,20 @@
 {
   "name": "swap-libs-sdk-v2",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "🛠 An SDK for building applications on top of pancakeswap or uniswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Fyfe0203/swap-libs-sdk-v2",
+  "repository": "https://github.com/Fyfe0203/swap-libs-sdk-v2.git",
   "keywords": [
     "uniswap",
     "pancakeswap",
     "ethereum"
   ],
-  "module": "dist/sdk.esm.js",
+  "module": "dist/swap-libs-sdk-v2.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "lint:fix": "tsdx lint src test --fix",
