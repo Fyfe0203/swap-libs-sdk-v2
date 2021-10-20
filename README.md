@@ -1,7 +1,6 @@
-# Pancakeswap SDK
+# Swap SDK
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Actions Status](https://github.com/Fyfe0203/swap-sdk-v2/workflows/CI/badge.svg)](https://github.com/Fyfe0203/swap-sdk-v2)
 [![npm version](https://img.shields.io/npm/v/swap-libs-sdk-v2/latest.svg)](https://www.npmjs.com/package/swap-libs-sdk-v2)
 
 ## Running tests
@@ -11,13 +10,13 @@ To run the tests, follow these steps. You must have at least node v10 and [yarn]
 First clone the repository:
 
 ```sh
-git clone https://github.com/Fyfe0203/swap-sdk-v2
+git clone https://github.com/Fyfe0203/swap-libs-sdk-v2
 ```
 
-Move into the swap-sdk-v2 working directory
+Move into the swap-libs-sdk-v2 working directory
 
 ```sh
-cd swap-sdk-v2/
+cd swap-libs-sdk-v2/
 ```
 
 Install dependencies
