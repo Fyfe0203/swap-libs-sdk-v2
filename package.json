@@ -1,7 +1,7 @@
 {
   "name": "swap-libs-sdk-v2",
   "license": "MIT",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "🛠 An SDK for building applications on top of pancakeswap or uniswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
