@@ -53,3 +53,6 @@ Ran all test suites.
 
 https://blog.csdn.net/qq_36040161/article/details/79709140
 https://blog.csdn.net/zhangjing1019/article/details/102896421
+
+
+npm publish
