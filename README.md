@@ -1,3 +1,12 @@
+<!--
+ * @Author: fyfe freeser@live.cn
+ * @Date: 2022-12-22 14:56:48
+ * @LastEditors: fyfe freeser@live.cn
+ * @LastEditTime: 2023-04-03 14:28:28
+ * @Description:
+ * @FilePath: /swap-libs-sdk-v2/README.md
+-->
+
 # Swap SDK
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -54,5 +63,5 @@ Ran all test suites.
 https://blog.csdn.net/qq_36040161/article/details/79709140
 https://blog.csdn.net/zhangjing1019/article/details/102896421
 
-
-npm publish
+利用命令 npm login 本地登录账号，会提示你输入账号密码邮箱；
+利用命令 npm publish 进行包发布，记得每次发布时，修改版本号；

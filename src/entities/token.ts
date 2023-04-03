@@ -1,3 +1,11 @@
+/*
+ * @Author: fyfe freeser@live.cn
+ * @Date: 2022-12-22 14:56:48
+ * @LastEditors: fyfe freeser@live.cn
+ * @LastEditTime: 2023-04-03 14:22:00
+ * @Description:
+ * @FilePath: /swap-libs-sdk-v2/src/entities/token.ts
+ */
 import invariant from 'tiny-invariant'
 import { ChainId } from '../constants'
 import { validateAndParseAddress } from '../utils'
@@ -67,10 +75,12 @@ export const WETH = {
   [4]: new Token(4, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped Ether'),
   [5]: new Token(5, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether'),
   [42]: new Token(42, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'),
+  // XChain测试链
+  [16256]: new Token(16256, '0x36C28c01a7911eB161f09cBAefCfaF91652aDfaB', 18, 'WETH', 'Wrapped Ether'),
 
   [10]: new Token(10, '0x4200000000000000000000000000000000000006', 18, 'WETH', 'Wrapped Ether'),
   [69]: new Token(69, '0x4200000000000000000000000000000000000006', 18, 'WETH', 'Wrapped Ether'),
 
   [42161]: new Token(42161, '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1', 18, 'WETH', 'Wrapped Ether'),
-  [421611]: new Token(421611, '0xB47e6A5f8b33b3F17603C83a0535A9dcD7E32681', 18, 'WETH', 'Wrapped Ether'),
+  [421611]: new Token(421611, '0xB47e6A5f8b33b3F17603C83a0535A9dcD7E32681', 18, 'WETH', 'Wrapped Ether')
 }

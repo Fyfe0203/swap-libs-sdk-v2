@@ -1,8 +1,8 @@
 /*
  * @Author: error: git config user.name && git config user.email & please set dead value or install git
  * @Date: 2022-12-22 14:56:48
- * @LastEditors: error: git config user.name && git config user.email & please set dead value or install git
- * @LastEditTime: 2022-12-22 15:40:56
+ * @LastEditors: fyfe freeser@live.cn
+ * @LastEditTime: 2023-04-03 14:22:40
  * @Description:
  * @FilePath: /swap-libs-sdk-v2/src/constants.ts
  */
@@ -24,7 +24,9 @@ export enum ChainId {
   ARBITRUM_ONE = 42161,
   ARBITRUM_RINKEBY = 421611,
   OPTIMISM = 10,
-  OPTIMISTIC_KOVAN = 69
+  OPTIMISTIC_KOVAN = 69,
+  // XChain测试链
+  X_CHAIN = 16256
 }
 
 export enum TradeType {
@@ -48,6 +50,7 @@ export const FACTORY_ADDRESS: { [key: number]: string } = {
   [ChainId.RINKEBY]: Uni_FACTORY_ADDRESS,
   [ChainId.KOVAN]: Uni_FACTORY_ADDRESS,
   [ChainId.GOERLI]: Uni_FACTORY_ADDRESS,
+  [ChainId.X_CHAIN]: Uni_FACTORY_ADDRESS, // XChain测试链
 
   [ChainId.BSCNET]: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73',
   [ChainId.BSCTESTNET]: '0xb7926c0430afb07aa7defde6da862ae0bde767bc'
@@ -59,6 +62,7 @@ export const INIT_CODE_HASH: { [key: number]: string } = {
   [ChainId.RINKEBY]: Uni_INIT_CODE_HASH,
   [ChainId.KOVAN]: Uni_INIT_CODE_HASH,
   [ChainId.GOERLI]: Uni_INIT_CODE_HASH,
+  [ChainId.X_CHAIN]: Uni_INIT_CODE_HASH, // XChain测试链
 
   [ChainId.BSCNET]: '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5',
   [ChainId.BSCTESTNET]: '0xecba335299a6693cb2ebc4782e74669b84290b6378ea3a3873c7231a8d7d1074'
