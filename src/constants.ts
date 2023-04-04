@@ -2,7 +2,7 @@
  * @Author: error: git config user.name && git config user.email & please set dead value or install git
  * @Date: 2022-12-22 14:56:48
  * @LastEditors: fyfe freeser@live.cn
- * @LastEditTime: 2023-04-04 14:55:09
+ * @LastEditTime: 2023-04-04 18:41:38
  * @Description:
  * @FilePath: /swap-libs-sdk-v2/src/constants.ts
  */
@@ -62,7 +62,7 @@ export const INIT_CODE_HASH: { [key: number]: string } = {
   [ChainId.RINKEBY]: Uni_INIT_CODE_HASH,
   [ChainId.KOVAN]: Uni_INIT_CODE_HASH,
   [ChainId.GOERLI]: Uni_INIT_CODE_HASH,
-  [ChainId.X_CHAIN]: '0x3a8c55c1fa6ece35af01354f85cf63f1181d3244e07f18bc2d383fd369d805b5', // XChain测试链
+  [ChainId.X_CHAIN]: '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f', // XChain测试链
 
   [ChainId.BSCNET]: '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5',
   [ChainId.BSCTESTNET]: '0xecba335299a6693cb2ebc4782e74669b84290b6378ea3a3873c7231a8d7d1074'
