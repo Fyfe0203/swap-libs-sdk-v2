@@ -2,7 +2,7 @@
  * @Author: error: git config user.name && git config user.email & please set dead value or install git
  * @Date: 2022-12-22 14:56:48
  * @LastEditors: fyfe freeser@live.cn
- * @LastEditTime: 2023-04-04 18:41:38
+ * @LastEditTime: 2023-07-04 12:58:49
  * @Description:
  * @FilePath: /swap-libs-sdk-v2/src/constants.ts
  */
@@ -53,7 +53,7 @@ export const FACTORY_ADDRESS: { [key: number]: string } = {
   [ChainId.X_CHAIN]: '0xf1D6acC59ebB0d5FB7E5A029f2D8F43A9834CD96', // XChain测试链
 
   [ChainId.BSCNET]: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73',
-  [ChainId.BSCTESTNET]: '0xb7926c0430afb07aa7defde6da862ae0bde767bc'
+  [ChainId.BSCTESTNET]: '0x6725F303b657a9451d8BA641348b6761A6CC7a17'
 }
 
 export const INIT_CODE_HASH: { [key: number]: string } = {
@@ -65,7 +65,7 @@ export const INIT_CODE_HASH: { [key: number]: string } = {
   [ChainId.X_CHAIN]: '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f', // XChain测试链
 
   [ChainId.BSCNET]: '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5',
-  [ChainId.BSCTESTNET]: '0xecba335299a6693cb2ebc4782e74669b84290b6378ea3a3873c7231a8d7d1074'
+  [ChainId.BSCTESTNET]: '0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66'
 }
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
